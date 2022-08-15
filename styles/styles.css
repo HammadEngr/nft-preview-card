@@ -1,0 +1,124 @@
+body {
+  background-color: #0D1A2B; font-family: "Outfit",sans-serif;
+}
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.main {background-color: #14253D;
+  position: relative;
+  width: 320px;
+  height: 560px;
+  margin: auto;
+  border-radius: 5px;
+}
+  .nft-name {
+    position: absolute;
+    top: 30px;
+  }
+  .description {
+    position: absolute;
+    top: 50px;
+  }
+
+
+    img {position:absolute;
+      width: 300px;
+      left: 10px;
+      top: 10px;
+      border-radius: 5px;
+      }
+
+    .text {
+      position: absolute;
+      width: 300px;
+      height: 250px;
+      top: 300px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .nft-name {
+      margin: 0 0 0;
+      font-size: 18px;
+      font-family: "Outfit",sans-serif;
+      }
+    .description {
+      font-size: 18px;
+      color: #8BACDA;
+    }
+    .eth {
+      position: absolute;
+      width: 100px;
+      height: 40px;
+      top: 135px;
+    }
+    .eth-value {
+      display: inline-block;
+      position: absolute;
+      color: #00FFF7;
+      margin: 0 0 0;
+      left: 20px;
+    }
+    .time {
+      position:absolute;
+      display: inline-block;
+      right: 0;
+      width: 100px;
+      height: 40px;
+      top: 135px;
+
+    }
+    .time-left {
+      display: inline-block;
+      position: absolute;
+      color: #8BACDA;
+      margin: 0 0 0;
+      right: 0;
+    }
+    .author {
+      position: absolute;
+      bottom: 0;
+      width: 300px;
+      height: 100px;
+      margin: 0 0 0;
+    }
+    hr {
+      border-color: #8BACDA;
+      border-width: 0.5px;
+      border-style: solid;
+      border-bottom: 0;
+      border-left: 0;
+      border-right: 0;
+      margin-top: 30px;
+    }
+    .author-image {
+      position: absolute;
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      border-color: white;
+      border-style: solid;
+      border-radius: 30px;
+      top: 45px;
+    }
+
+    .author-name {
+      display: inline-block;
+      position: absolute;
+      margin: 0 0 0;
+      font-size: 18px;
+      left: 60px;
+      top: 50px;
+    }
+    span {
+      color: #8BACDA;
+    }
+.attribution{
+  text-align: center;
+  color: #828282;
+  font-size: 0.8rem;
+}
